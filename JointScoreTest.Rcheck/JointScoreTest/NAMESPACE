@@ -1,0 +1,14 @@
+##### Functions #####
+export (JointScoreTest_withNuisanceVC, JointScoreTest_withoutNuisanceVC)
+
+##### Dependent Package #####
+import(MASS)
+import(SKAT)
+import(pracma) 
+import(splines)
+import(copula)
+import(RSpectra)
+import(lme4)
+import(compiler)
+import(nnet)
+import(nlme)

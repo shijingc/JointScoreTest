@@ -1,0 +1,8 @@
+JointScoreTest-package	JointScoreTest-package
+CrossSectional_Binom	CrossSectional_Binom
+CrossSectional_Gaussian	CrossSectional_Gaussian
+JointScoreTest	JointScoreTest-package
+JointScoreTest_withNuisanceVC	JointScoreTest_withNuisanceVC
+JointScoreTest_withoutNuisanceVC	JointScoreTest_withoutNuisanceVC
+Longi_Binom	Longi_Binom
+Longi_Gaussian	Longi_Gaussian

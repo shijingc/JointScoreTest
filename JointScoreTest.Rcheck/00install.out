@@ -1,0 +1,18 @@
+* installing *source* package ‘JointScoreTest’ ...
+** R
+** data
+** preparing package for lazy loading
+Warning: replacing previous import ‘pracma::polylog’ by ‘copula::polylog’ when loading ‘JointScoreTest’
+Warning: replacing previous import ‘pracma::psi’ by ‘copula::psi’ when loading ‘JointScoreTest’
+Warning: replacing previous import ‘pracma::sinc’ by ‘copula::sinc’ when loading ‘JointScoreTest’
+Warning: replacing previous import ‘lme4::lmList’ by ‘nlme::lmList’ when loading ‘JointScoreTest’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+Warning: replacing previous import ‘pracma::polylog’ by ‘copula::polylog’ when loading ‘JointScoreTest’
+Warning: replacing previous import ‘pracma::psi’ by ‘copula::psi’ when loading ‘JointScoreTest’
+Warning: replacing previous import ‘pracma::sinc’ by ‘copula::sinc’ when loading ‘JointScoreTest’
+Warning: replacing previous import ‘lme4::lmList’ by ‘nlme::lmList’ when loading ‘JointScoreTest’
+* DONE (JointScoreTest)

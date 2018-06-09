@@ -1,0 +1,13 @@
+Package: JointScoreTest
+Type: Package
+Title: Joint Testing of Fixed and Random Effects in the GLMM
+Version: 0.1
+Date: 2018-06-08
+Author: Jingchunzi Shi, Seunggeun Lee
+Maintainer: Jingchunzi (Jing) Shi <shijingc@umich.edu>
+Description: A score test for jointly testing the fixed and random effects in generalized linear mixed models (GLMMs).
+License: GPL (>= 2)
+Depends: MASS, SKAT, pracma, splines, copula, RSpectra, lme4, compiler,
+        nnet, nlme, R (>= 3.2.0)
+NeedsCompilation: no
+Built: R 3.3.3; ; 2018-06-08 23:58:35 UTC; unix

@@ -1,0 +1,117 @@
+* using log directory ‘/home/shijingc/JointTest/R_package/JointScoreTest.Rcheck’
+* using R version 3.3.3 (2017-03-06)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: UTF-8
+* checking for file ‘JointScoreTest/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘JointScoreTest’ version ‘0.1’
+* checking package namespace information ... OK
+* checking package dependencies ... NOTE
+Depends: includes the non-default packages:
+  ‘MASS’ ‘SKAT’ ‘pracma’ ‘splines’ ‘copula’ ‘RSpectra’ ‘lme4’
+  ‘compiler’ ‘nnet’ ‘nlme’
+Adding so many packages to the search path is excessive and importing
+selectively is preferable.
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘JointScoreTest’ can be installed ... WARNING
+Found the following significant warnings:
+  Warning: replacing previous import ‘pracma::polylog’ by ‘copula::polylog’ when loading ‘JointScoreTest’
+  Warning: replacing previous import ‘pracma::psi’ by ‘copula::psi’ when loading ‘JointScoreTest’
+  Warning: replacing previous import ‘pracma::sinc’ by ‘copula::sinc’ when loading ‘JointScoreTest’
+  Warning: replacing previous import ‘lme4::lmList’ by ‘nlme::lmList’ when loading ‘JointScoreTest’
+See ‘/home/shijingc/JointTest/R_package/JointScoreTest.Rcheck/00install.out’ for details.
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Checking should be performed on sources prepared by ‘R CMD build’.
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... NOTE
+Unexported object imported by a ':::' call: ‘SKAT:::Get_Davies_PVal’
+  See the note in ?`:::` about the use of this operator.
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+JointScoreTest_withNuisanceVC: no visible global function definition
+  for ‘rnorm’
+JointScoreTest_withNuisanceVC: no visible global function definition
+  for ‘cor’
+JointScoreTest_withNuisanceVC: no visible binding for global variable
+  ‘binomial’
+JointScoreTest_withNuisanceVC: no visible global function definition
+  for ‘predict’
+JointScoreTest_withoutNuisanceVC: no visible global function definition
+  for ‘lm’
+JointScoreTest_withoutNuisanceVC: no visible global function definition
+  for ‘rnorm’
+JointScoreTest_withoutNuisanceVC: no visible global function definition
+  for ‘cor’
+JointScoreTest_withoutNuisanceVC: no visible global function definition
+  for ‘glm’
+JointScoreTest_withoutNuisanceVC: no visible binding for global
+  variable ‘binomial’
+JointScoreTest_withoutNuisanceVC: no visible global function definition
+  for ‘predict’
+mc.score.null.withNuisanceVC: no visible global function definition for
+  ‘rchisq’
+mc.score.null.withNuisanceVC.binary: no visible global function
+  definition for ‘rchisq’
+mc.score.null.withoutNuisanceVC: no visible global function definition
+  for ‘rchisq’
+mc.score.null.withoutNuisanceVC.binary: no visible global function
+  definition for ‘rchisq’
+Undefined global functions or variables:
+  binomial cor glm lm predict rchisq rnorm
+Consider adding
+  importFrom("stats", "binomial", "cor", "glm", "lm", "predict",
+             "rchisq", "rnorm")
+to your NAMESPACE file.
+* checking Rd files ... WARNING
+JointScoreTest-package.Rd: non-ASCII input and no declared encoding
+problem found in ‘JointScoreTest-package.Rd’
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of ‘data’ directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... WARNING
+  
+  Note: significantly better compression could be obtained
+        by using R CMD build --resave-data
+                              old_size new_size compress
+  CrossSectional_Binom.rda       140Kb     98Kb       xz
+  CrossSectional_Gaussian.rda    143Kb    101Kb       xz
+  Longi_Binom.rda                141Kb     98Kb       xz
+  Longi_Gaussian.rda             145Kb    102Kb       xz
+* checking files in ‘vignettes’ ... OK
+* checking examples ... OK
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in ‘inst/doc’ ... WARNING
+Package vignette without corresponding PDF/HTML:
+   ‘JointScoreTest.Rnw’
+
+* checking running R code from vignettes ... OK
+* checking re-building of vignette outputs ... OK
+* checking PDF version of manual ... OK
+* DONE
+Status: 4 WARNINGs, 4 NOTEs

@@ -1,0 +1,18 @@
+CrossSectional_Binom    Example dataset, a list of outcome variable,
+                        design matrices of fixed and random effects
+CrossSectional_Gaussian
+                        Example dataset, a list of outcome variable,
+                        design matrices of fixed and random effects
+JointScoreTest-package
+                        Joint Testing of Fixed and Random Effects in
+                        the GLMM
+JointScoreTest_withNuisanceVC
+                        Joint testing of the fixed and random effects
+                        in a GLMM with nuisance random effects
+JointScoreTest_withoutNuisanceVC
+                        Joint testing of the fixed and random effects
+                        in a GLMM with no nuisance random effects.
+Longi_Binom             Example dataset, a list of outcome variable,
+                        design matrices of fixed and random effects
+Longi_Gaussian          Example dataset, a list of outcome variable,
+                        design matrices of fixed and random effects
